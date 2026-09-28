@@ -1,6 +1,7 @@
 # Local secrets — never commit
 .hf_token
 *.token
+.ignore
 
 # Environment
 .venv/
