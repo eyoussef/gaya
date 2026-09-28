@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gaya"
+version = "0.1.0"
+description = "Non-autoregressive decision model distilled from a System 2 teacher: dual-tower mmBERT head with per-option token budgets and proper-scoring calibration."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["distillation", "classification", "calibration", "dual-tower", "decision-model"]
+dependencies = [
+    "torch",
+    "transformers>=4.44",
+    "datasets>=2.20",
+    "accelerate>=0.33",
+    "numpy",
+    "safetensors",
+    "huggingface-hub",
+]
+
+[project.optional-dependencies]
+# Head-to-head benchmark only (gaya itself never imports laya).
+bench = ["laya"]
+
+[tool.setuptools]
+packages = ["gaya"]

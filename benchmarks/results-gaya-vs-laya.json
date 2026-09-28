@@ -1,0 +1,83 @@
+{
+  "gaya": {
+    "ag_news": {
+      "n": 1000,
+      "latency_p50_ms": 17.1,
+      "latency_mean_ms": 17.5,
+      "q_per_sec": 57.0,
+      "acc": 0.946,
+      "ece": 0.035
+    },
+    "banking77": {
+      "n": 500,
+      "latency_p50_ms": 53.4,
+      "latency_mean_ms": 53.6,
+      "q_per_sec": 18.7,
+      "acc": 0.812,
+      "ece": 0.193
+    },
+    "emotion": {
+      "n": 500,
+      "latency_p50_ms": 14.7,
+      "latency_mean_ms": 15.0,
+      "q_per_sec": 66.5,
+      "acc": 0.89,
+      "ece": 0.045
+    },
+    "sst5": {
+      "n": 500,
+      "latency_p50_ms": 15.8,
+      "latency_mean_ms": 15.9,
+      "q_per_sec": 62.8,
+      "mae": 0.608,
+      "rps": 0.099
+    },
+    "bool_latency_only": {
+      "n": 40,
+      "latency_p50_ms": 16.3,
+      "latency_mean_ms": 16.5,
+      "q_per_sec": 60.7
+    }
+  },
+  "laya": {
+    "ag_news": {
+      "n": 1000,
+      "latency_p50_ms": 22.3,
+      "latency_mean_ms": 22.4,
+      "q_per_sec": 44.6,
+      "acc": 0.947,
+      "ece": 0.187
+    },
+    "banking77": {
+      "n": 500,
+      "latency_p50_ms": 29.0,
+      "latency_mean_ms": 29.2,
+      "q_per_sec": 34.2,
+      "acc": 0.38,
+      "ece": 0.51
+    },
+    "emotion": {
+      "n": 500,
+      "latency_p50_ms": 20.1,
+      "latency_mean_ms": 20.2,
+      "q_per_sec": 49.6,
+      "acc": 0.59,
+      "ece": 0.265
+    },
+    "sst5": {
+      "n": 500,
+      "latency_p50_ms": 20.7,
+      "latency_mean_ms": 20.8,
+      "q_per_sec": 48.2,
+      "mae": 0.983,
+      "rps": 0.183
+    },
+    "bool_latency_only": {
+      "n": 40,
+      "latency_p50_ms": 22.9,
+      "latency_mean_ms": 22.9,
+      "q_per_sec": 43.8
+    },
+    "bool_type": "noul"
+  }
+}

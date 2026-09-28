@@ -1,0 +1,6 @@
+torch  # from system site-packages; venv created with --system-site-packages
+transformers>=4.44
+datasets>=2.20
+accelerate>=0.33
+numpy
+safetensors
